@@ -1,9 +1,11 @@
-//tabbed Menu
-function openMenu (event,menuName){
-    let menuArray = document.getElementsByClassName("menu")
-    for( let i=0; i<  menuArray.length;) {
-        menuArray[i].style.display ='none'
+// Tabbed Menu
+function openMenu(event, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
     }
+    
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {  // This should be tablinks.length
        tablinks[i].classList.remove("active-tab");  // Using classList for better readability
