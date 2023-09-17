@@ -88,3 +88,14 @@ color:black;
       .menu h1 {
         color: black;
       }
+
+      /* Custom CSS for greyscale images */
+.img-greyscale {
+    filter: grayscale(100%);
+  }
+  
+  /*XL form boxes*/
+  .extra-large {
+    height: 60px;
+    font-size: 1.8rem;
+  }
