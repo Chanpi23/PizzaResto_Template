@@ -30,3 +30,16 @@ color:black;
       display: none;
     }
   }
+
+  /*Custom styles for header*/
+
+  .bg-img {
+    background-image: url('assests/shaian-ramesht-exSEmuA7R7k-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .btn{
+    min-width: 250px;
+  }
