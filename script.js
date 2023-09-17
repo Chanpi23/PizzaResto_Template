@@ -13,3 +13,4 @@ event.currentTarget.classList.add('active-tab')
 
 }
 
+document.getElementById("mainLink").click()
